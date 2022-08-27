@@ -23,12 +23,17 @@
 
     <form>
         <h1>Sign in</h1>
+        <div class="input_taking">
         <input type="email" placeholder="Email address"/>
-        
+        </div>
+        <div class="input_taking" id="pass">
         <input type="password" placeholder="Password"/>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRn18-IfVPjupEmRkroEtmjIpClf12BiDgCHIXTI&s" alt="">
+        </div>
         
         <div id="checkbox">
         <input type="checkbox"/><p>keep me signed in</p>
+        
         </div>
         <p>Selecting the checkbox will keep you signed into your account on this<br>device until you sign out.Do not select this on shared devices.</p>
         <p>By signing in,I agree to the Expedia <a href="">Terms and Conditions.</a><br><a href="">Privacy Statement </a> and <a href="">Expedia Rewards Terms and Conditions.</a></p>
@@ -49,5 +54,28 @@
             </div>
         
    </div>
+
+
+   
 </body>
 </html>
+<script>
+  let pass_icon=true;
+  document.querySelector("#pass>img").addEventListener("click",function(){
+    if(pass_icon==true)
+    {
+    document.querySelector("#pass>img").setAttribute("src","data:image/png;base64,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");
+    document.querySelector("#pass>input").setAttribute("type","text");
+     pass_icon=false;
+    }
+    else
+      {
+        document.querySelector("#pass>img").setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRn18-IfVPjupEmRkroEtmjIpClf12BiDgCHIXTI&s");
+        document.querySelector("#pass>input").setAttribute("type","password");
+        pass_icon=true;
+      }
+  });
+
+ 
+
+</script>

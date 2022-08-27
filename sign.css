@@ -33,21 +33,44 @@ form{
     
 }
 
-form input{
-    height:30px;
+
+
+
+
+ .input_taking{
+    border:1px solid black;
     margin-bottom:10px;
-    border-radius: 10px;
-}
-#pass{
-    margin-bottom:0px;
-}
-#pass>input{
-    width:90%;
-    border-right: none;
+    width:100%;
+  
+    height:31px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    
 }
 
-#pass>img{
+.input_taking>input{
+    border:none;
+    outline:none;
+    margin-left:10px;
+}
+
+#pass{
+    border-right:none;
+}
+    
+ 
+
+ 
+    
+
+.input_taking>img{
     border:1px solid black;
+    height:30px;
+    margin-bottom: -10px;
+    border-radius: 10px;
+    padding-right:1px;
+    border-left:none;
 }
 
 form>p{

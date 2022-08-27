@@ -1,0 +1,117 @@
+header{
+    height: 50px;
+    display:flex;
+       
+}
+
+header>div:nth-child(1){
+    width:11%;
+}
+header>div:nth-child(2){
+    width:77%;
+    text-align: center;
+}
+
+header>div:nth-child(1) img{
+    height:30px;
+    width:30px;
+}
+
+header>div:nth-child(2) img{
+    height:50px;
+    width:110px;
+    
+
+}
+
+
+
+form{
+    width:30%;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#service{
+    display:flex;
+    
+
+
+}
+
+
+
+.input_taking{
+    border:1px solid black;
+    border-radius: 10px;
+    height:40px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+}
+.input_taking > input{
+
+    width:90%;
+    border:none;
+    outline:none;
+}
+#pass>img{
+    height: 20px;
+    width:20px;
+}
+p{
+    font-size: 12px;
+}
+
+#checkbox>p{
+    margin-top: 5px;
+    padding-left:3px;
+    color:#343B53;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+#service>p{
+    margin-bottom: 12px;
+    margin-top:25px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:#343B53;
+}
+
+
+#singup_end{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+button{
+    color:white;
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #3662D8;
+    height:40px;
+    border-radius: 10px;
+}
+
+#sign_up_footer{
+    text-align: center;
+    margin-top:20px;
+
+}
+#sign_up_footer>p{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#sign_up_footer  img{
+    height:20px;
+    width:25px;
+}
+
+    
+
