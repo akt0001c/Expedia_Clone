@@ -1,3 +1,202 @@
+
+
+
+ 
+#nav_bar{
+    height:60px;
+    margin:0px;
+    display:flex;
+    justify-content: space-between;
+    border:1px solid white;
+    margin-top:none;
+    align-items: center;
+    background-color: #FFFFFF;
+    float:inline-end;
+    overflow: hidden;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+}
+#nav_bar>div{
+    width:30%;
+    display:flex;
+    border:0px solid green;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#nav_bar>div>div{
+    font-size:15px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align: center;
+
+    
+}
+#drop_menu{
+    overflow: hidden;
+   
+    
+
+}
+#drop_menu img{
+    height:15px;
+    width:20px;
+    margin-right: 10px;
+    
+    
+}
+#right_side img{
+    height:22px;
+    width:28px;
+    margin-right: 10px; 
+}
+#drop_menu button{
+    text-align: center;
+    border:none;
+    background-color: inherit;
+    padding:15px 10px;
+    outline:none;
+    color:black;
+}
+#drop_content{
+  
+     
+    width:250px;
+    border:1px solid white;
+    height:auto;
+    display: none;
+    margin:auto;
+    
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    position:absolute;
+    
+    
+}
+#drop_content>div{
+    height:1fr;
+    border:1px solid white;
+    padding:12px 24px;
+    background-color: inherit;
+    display:flex;
+    
+}
+#drop_content a{
+    color:black;
+    text-decoration: none;
+    margin-left:10px;
+  
+}
+#right_side>div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#right_side div:hover{
+    color:blue;
+    cursor:pointer;
+}
+#drop_content>div:hover{
+    background-color: rgb(229, 234, 234);
+    cursor:pointer;
+}
+#drop_menu>button:hover{
+    color:blue;
+    cursor:pointer;
+}
+#nav_bar:hover{
+    cursor:pointer;
+}
+
+
+  
+/*
+sign in  menu
+*/
+hr{
+    color:grey;
+}
+#sign-in-menu a{
+  text-decoration: none;
+  color:#343B53;
+}
+#sign-in-menu{
+    border:1px solid  white;
+    height:390px;
+    width:380px;
+    display:none;
+    position: absolute;
+    float:left;
+    right:-25px;
+  
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+#sign-in-menu>div{
+    border:0px solid  green;
+    padding:12px 0;
+    width:90%;
+    margin:auto;
+}
+
+
+#sign{
+    background-color: rgb(59, 59, 211);
+    border-radius: 10px;
+    text-align: center;
+    
+}
+#sign>a{
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#sign-in-menu>div>h2{
+    color:#141D38;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#create{
+    text-align: center;
+
+}
+
+#create>a{
+   font-size: 16px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   text-decoration: none;
+   color:#343B53;
+   background-color: #FFFFFF00;
+   font-weight: bold;
+}
+
+#sign-in-menu>div:hover{
+    cursor: pointer;
+    background-color: rgb(229, 234, 234);
+
+}
+
+#sign-in-menu>div:nth-child(2):hover{
+    background-color: #0b41d8;
+}
+ #sign-in-menu>div:nth-child(3) a:hover{
+     color:blue;
+}
+
+#sign-in-menu>div:nth-child(1):hover{
+    background-color:inherit;
+}
+#sign-in-menu>div:last-child{
+    margin-top: 30px;
+}
+
+
+
+
 *{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     
