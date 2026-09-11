@@ -2,11 +2,22 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#email-section {
+  border: 2px solid purple;
+  padding: 2px;
+}
+
+#otp-section {
+  display: none;
+  border: 2px solid green;
+  padding: 2px;
+}
+
 .container_heading {
   margin: 0.4%;
 }
-.container_content {
-  margin: 0.2%;
+.container_content_info {
+  margin: 0.3%;
 }
 .sign_in_header_info {
   height: 50px;
@@ -36,7 +47,7 @@
   height: 50px;
   width: 110px;
 }
-.sign_in_container_info {
+.container_info {
   width: 100%;
   height: auto;
   display: flex;
@@ -51,7 +62,7 @@ form {
   flex-direction: column;
 }
 
-.input_taking {
+.form-group {
   border: 1px solid black;
   margin-bottom: 10px;
   width: 100%;
@@ -62,7 +73,7 @@ form {
   justify-content: space-between;
 }
 
-.input_taking > input {
+.form-group > input {
   border: none;
   outline: none;
   margin-left: 10px;
@@ -72,7 +83,7 @@ form {
   border-right: none;
 }
 
-.input_taking > img {
+.form-group > img {
   border: 1px solid black;
   height: 30px;
   margin-bottom: -10px;
@@ -120,10 +131,8 @@ form > button {
   border: none;
 }
 
-.signin_footer {
-  width: 28%;
+.signin-footer {
   margin: auto;
-  text-align: center;
   margin-top: 20px;
 }
 
@@ -144,4 +153,27 @@ form > h1 {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+}
+
+.signin-options {
+  border: 1px solid black;
+  width: 37%;
+  margin: auto;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+}
+.signin-options > div:nth-child(1) {
+  flex: 2;
+}
+
+.signin-options > div:nth-child(2) {
+  flex: 4;
+}
+
+.footer-icon-info {
+  margin: 0.3em;
 }
