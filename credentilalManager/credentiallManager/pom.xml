@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.clone.expedia</groupId>
-	<artifactId>credentiallManager</artifactId>
+	<artifactId>credentialmanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name/>
 	<description/>

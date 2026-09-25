@@ -1,13 +1,13 @@
-package com.clone.expedia.credentiallManager;
+package com.clone.expedia.credentialmanager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CredentiallManagerApplication {
+public class CredentialManagerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CredentiallManagerApplication.class, args);
+		SpringApplication.run(CredentialManagerApplication.class, args);
 	}
 
 }
